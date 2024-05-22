@@ -1,0 +1,24 @@
+/* Reset */
+@import url(./reset.css);
+/* Font */
+@import url(https://fonts.googleapis.com/css?family=Plus+Jakarta+Sans:regular,500,700,800&display=swap);
+
+body{
+    font-family: "Plus Jakarta Sans" ;
+    color: #5E6282;
+}
+.wrapper {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: clip;
+}
+.wrapper > main {
+    flex-grow: 1;
+}
+[clas*="__container"]{
+    max-width: 1230px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
